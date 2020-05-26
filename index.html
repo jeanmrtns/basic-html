@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
+    <title>Jean</title>
+</head>
+<body>
+    <header id="titulo"><h1>Jean Antônio Martins</h1></header>
+
+    <p class="paragrafo">Coisas que eu gosto:</p>
+    <ul>
+        <li>Games</li>
+        <li>Livros</li>
+        <li>Músicas</li>
+        <li>Séries</li>
+    </ul>
+
+    <p class="segundo-paragrafo">Estou cursando o 2º período de C.C na PUC-MG</p>
+   
+    <div>
+        <ul>
+            <li class="titulo-input">Nome: 
+                <input type="text" id="nome" class="inputNome" placeholder="Insira seu nome">
+            </li>
+
+            <li class="titulo-input">Idade: 
+                <button class="botaoIdade" onclick="decrementaIdade()">-</button>
+                <input type="text" id="idade" value=1 disabled>
+                <button class="botaoIdade" onclick="incrementaIdade()">+</button>
+            </li>
+        </ul>
+
+        <button onclick="cliqueBotao()" id="botao">Enviar</button>
+
+    </div>
+
+    <div class="links" style="text-decoration: none;">
+            <p>Redes Sociais:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/jean.mrtns/" target="_blank"><i class="fa fa-instagram"></i>Instagram</a></li>
+                <li><a href="https://www.pucpcaldas.br/" target="_blank">PUC Poços</a></li>
+                <!--A propriedade target especifica o comportamento da página ao clicar no link-->
+                <!--No caso _blank é usado para abrir o link em uma nova guia-->
+            </ul>
+    </div>
+
+  
+    
+</body>
+</html>
